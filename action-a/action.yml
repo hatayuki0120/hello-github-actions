@@ -4,14 +4,14 @@ author: "hoge@hoge.com"
 
 inputs:
   MY_NAME:
-    description: "Who to greet
+    description: "Who to greet"
     required: true
     default: "world"
     
 runs:
   using: "docker"
   image: "Dockerfile"
-  
- branding:
+
+branding:
   icon: "mic"
   color: "purple"
